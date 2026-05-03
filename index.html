@@ -1,31 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Роман Довжанин</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Владелец домена</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="card">
-      <h1 id="main-title">Здравствуйте!</h1>
-      <p class="text">
-        Меня зовут <strong>Роман Довжанин</strong>.
-      </p>
-      <p class="text">
-        Я владелец этого сайта.
-      </p>
-      <p id="time-message" class="time-message"></p>
 
-      <button id="welcome-btn">Приветствие</button>
-
-      <footer>
-        © <span id="year"></span> Роман Довжанин
-      </footer>
+    <div class="container">
+        <div class="emoji" id="emoji">😈</div>
+        <h1 class="title">Я владелец этого домена</h1>
+        <p class="domain-name" id="domain-display">loading...</p>
+        <button class="btn" onclick="celebrate()">Подтвердить статус</button>
     </div>
-  </div>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
